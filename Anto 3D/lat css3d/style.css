@@ -1,0 +1,104 @@
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            /* background-color: rgb(251, 250, 208); */
+            /* background-image: url("images/sepatu3.jpg"); */
+            
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(236, 211, 49);
+            text-shadow: 2px 2px 5px rgba(244, 15, 15, 0.681);
+        }
+        p{
+            text-align: justify;
+            
+        }
+        #para2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .para3{
+            background-color: aliceblue;
+        }
+        div{
+            text-align: center;
+        }
+        img{
+            width:200px;
+            height: 150px;
+            border-style:double;
+            border-color: rgba(216, 169, 30, 0.688);
+            border-width: 5px;
+            border-radius: 50px;
+            margin-left: 50px;
+
+        }
+        .para3 {
+            font-family: "Rubik Wet Paint", system-ui;
+            font-weight: 400;
+            font-style: normal;
+          }
+          h1 {
+            font-family: "Rouge Script", cursive;
+            font-weight: 1000;
+            font-style: normal;
+            
+          }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1c1e14;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #e31212;
+          }
+          
+          .active {
+            background-color: #e3c508;
+          }
+          input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+          
+          input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          

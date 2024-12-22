@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 8 Form</title>
+</head>
+<body>
+    <h2>Latihan 8 Form</h2>
+    <p>Form Minat Bakat Mahasiswa</p>
+    <form action="">
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" autofocus required><br>
+        <label for="alamat">Alamat</label><br>
+        <input type="text" id="alamat" name="alamat" size="50"><br>
+        <p>Jenis kelamin :</p>
+        <input type="radio" id="pria" name="jk" value="pria">
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jk" value="wanita">
+        <label for="wanita">Wanita</label>
+        <br>
+        <p>Alat transportasi yang dimiliki :</p>
+        <input type="checkbox" id="kendaraan1" name="kendaraan1" value="sepeda">
+        <label for="kendaraan1">Sepeda</label>
+        <input type="checkbox" id="kendaraan2" name="kendaraan2" value="motor">
+        <label for="kendaraan2">Motor</label>
+        <input type="checkbox" id="kendaraan3" name="kendaraan3" value="mobil">
+        <label for="kendaraan3">Mobil</label><br><br>
+        <p>Bakat yang anda miliki</p>
+        <select id="bakat" name="bakat">
+            <option value="sepakbola">Sepakbola</option>
+            <option value="badminton">Badminton</option>
+            <option value="puisi">Puisi</option>
+            <option value="menyanyi">Menyanyi</option>
+        </select><br><br>
+        <p>Deskripsikan diri anda</p>
+        <textarea name="deskripsi" rows="10" cols="70">
+            Deskipsikan diri anda.
+        </textarea><br>
+        <input type="file"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

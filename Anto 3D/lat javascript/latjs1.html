@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS 1</title>
+</head>
+<body>
+    <h2>Apa yang bisa dilakukan Javascript?</h2>
+    <h3>JavaScript dapat merubah atribut HTML</h3>
+    <p id="demo"> paragraf sebulum dirubah </p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML='Paragraf yang diganti'">Klik untuk mengganti paragraf</button>
+
+    <h3>Di kasus ini src (source) attribute image dari gambar yang diubah.</h3>
+        <!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Nyalakan lampu</button>
+        
+        <img id="myImage" src="pic_bulboff.gif" style="width:50px">
+        
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Matikan Lampu</button> -->
+
+        <button onclick="document.getElementById('gambarku').src='pic_bulbon.gif'">Menyalakan Lampu</button>
+        <img id="gambarku" src="pic_bulboff.gif" alt="gambar lampu mati">
+        <button onclick="document.getElementById('gambarku').src='pic_bulboff.gif'">Mematikan Lampu</button>
+</body>
+</html>
